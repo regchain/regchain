@@ -9,6 +9,7 @@
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
         "regchain/core":"dev-master",
+        "regchain/control-snitch":"dev-master",
         "regchain/statecrime-dir1":"dev-master"
     },
     "require-dev": {
@@ -59,7 +60,11 @@
         {
             "type": "vcs",
             "url": "git@github.com:regchain/core.git"
-        }
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:regchain/control-snitch.git"
+        },
         {
             "type": "vcs",
             "url": "git@github.com:regchain/statecrime-dir1.git"
