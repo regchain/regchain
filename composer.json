@@ -8,7 +8,7 @@
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
-        "laravel/tinker": "~1.0",
+        "regchain/core":"dev-master",
         "regchain/statecrime-dir1":"dev-master"
     },
     "require-dev": {
@@ -56,6 +56,10 @@
         "optimize-autoloader": true
     },
     "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:regchain/core.git"
+        }
         {
             "type": "vcs",
             "url": "git@github.com:regchain/statecrime-dir1.git"
